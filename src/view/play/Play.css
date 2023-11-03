@@ -101,3 +101,9 @@
 .buttonText {
     font-family: 'MaplestoryOTFBold';
 }
+
+.spin {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}

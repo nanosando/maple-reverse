@@ -1,7 +1,7 @@
 import './Play.css';
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { Layout, Button } from 'antd';
+import { Layout, Button, Spin } from 'antd';
 import * as ort from 'onnxruntime-web';
 import MCTS from '../../reverse/MCTS';
 import ReverseGame from '../../reverse/ReverseGame';
@@ -42,6 +42,7 @@ function PlayAI(){
         setGame(game);
         setMCTS(mcts);
         setCurBoard(board);
+        setLoading(false);
     }
 
     function findValids(player, board) {
@@ -126,6 +127,7 @@ function PlayAI(){
 
     useEffect(() => {
         async function loadModel() {
+            setLoading(true);
             const session = await ort.InferenceSession.create(window.location.pathname +'/az.onnx', {
                 executionProviders: ['wasm']
               });
@@ -181,7 +183,7 @@ function PlayAI(){
 
     return(
         loading?
-        <div /> : 
+        <Spin size="large" className="spin"/> : 
         <Content className="playContents">
             <div className="systemMessageGroup">
                 <div className="systemMessage_left">
