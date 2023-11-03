@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'MaplestoryOTFBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header{
+  display: flex;
+  background-color: #ffffff;
+}
+
+.titleText {
+  font-size: 1.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-weight: 600;
+
+  font-family: 'MaplestoryOTFBold';
+  font-size: x-large;
+  color: black;
+}
+
+.menuItem {
+  font-family: 'MaplestoryOTFBold';
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
