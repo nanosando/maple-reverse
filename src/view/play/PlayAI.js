@@ -183,7 +183,9 @@ function PlayAI(){
 
     return(
         loading?
-        <Spin size="large" className="spin"/> : 
+        <Content className="playContents">
+            <Spin size="large" className="spin"/>
+        </Content> : 
         <Content className="playContents">
             <div className="systemMessageGroup">
                 <div className="systemMessage_left">

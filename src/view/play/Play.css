@@ -2,7 +2,6 @@
 
 .playContents {
     margin: 8px auto 8px auto;
-    background-color: white;
 }
 
 .board {
@@ -105,6 +104,5 @@
 
 .spin {
     display: flex;
-    margin-top: 30px;
     justify-content: center;
 }
