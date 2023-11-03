@@ -126,7 +126,7 @@ function PlayAI(){
 
     useEffect(() => {
         async function loadModel() {
-            const session = await ort.InferenceSession.create('/az.onnx', {
+            const session = await ort.InferenceSession.create(window.location.pathname +'/az.onnx', {
                 executionProviders: ['wasm']
               });
             setSession(session);
