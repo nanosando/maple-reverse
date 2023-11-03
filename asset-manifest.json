@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/maple-reverse/static/css/main.d4108f43.css",
-    "main.js": "/maple-reverse/static/js/main.c3baa25e.js",
+    "main.css": "/maple-reverse/static/css/main.419c892e.css",
+    "main.js": "/maple-reverse/static/js/main.19025ebc.js",
     "static/js/787.95411d10.chunk.js": "/maple-reverse/static/js/787.95411d10.chunk.js",
     "ort-wasm-simd.wasm": "/maple-reverse/ort-wasm-simd.wasm",
     "ort-wasm-simd-threaded.wasm": "/maple-reverse/ort-wasm-simd-threaded.wasm",
     "ort-wasm.wasm": "/maple-reverse/ort-wasm.wasm",
     "ort-wasm-threaded.wasm": "/maple-reverse/ort-wasm-threaded.wasm",
     "index.html": "/maple-reverse/index.html",
-    "main.d4108f43.css.map": "/maple-reverse/static/css/main.d4108f43.css.map",
-    "main.c3baa25e.js.map": "/maple-reverse/static/js/main.c3baa25e.js.map",
+    "main.419c892e.css.map": "/maple-reverse/static/css/main.419c892e.css.map",
+    "main.19025ebc.js.map": "/maple-reverse/static/js/main.19025ebc.js.map",
     "787.95411d10.chunk.js.map": "/maple-reverse/static/js/787.95411d10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4108f43.css",
-    "static/js/main.c3baa25e.js"
+    "static/css/main.419c892e.css",
+    "static/js/main.19025ebc.js"
   ]
 }
